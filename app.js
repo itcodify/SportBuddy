@@ -4,8 +4,7 @@
 
 // --- DATA STRUCTURES ---
 
-// SPORTS_DATABASE moved to sports_data.js
-const SPORTS_DATABASE = window.SPORTS_DATABASE;
+const SPORTS_DATABASE = {
   soccer: {
     name: "Soccer",
     icon: "⚽",
@@ -2694,4 +2693,3 @@ function showNotification(text, type = "badge-unlock") {
     toast.remove();
   }, 4000);
 }
-
